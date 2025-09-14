@@ -1,0 +1,3 @@
+[submodule "SOM_plus_clustering"]
+	path = SOM_plus_clustering
+	url = https://github.com/Evintkoo/SOM_plus_clustering.git

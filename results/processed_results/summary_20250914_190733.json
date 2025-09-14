@@ -1,0 +1,12 @@
+{
+  "experiment_info": {
+    "completion_status": "failed",
+    "error": "'ExperimentConfig' object has no attribute 'get'",
+    "total_runtime": 0.0010006427764892578
+  },
+  "dataset_info": {},
+  "summary_stats": {},
+  "errors": [],
+  "aggregated_results": {},
+  "statistical_tests": {}
+}

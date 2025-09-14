@@ -1,0 +1,60 @@
+{
+  "experiment_name": "Quick_Test",
+  "experiment_description": "Quick test run with limited datasets and algorithms",
+  "datasets_root": "D:\\Projects\\SOM_Performance_Analysis\\datasets",
+  "dataset_categories": [
+    "all"
+  ],
+  "max_samples_per_dataset": 500,
+  "normalize_features": true,
+  "has_labels": false,
+  "label_column": -1,
+  "include_som_algorithms": true,
+  "include_sklearn_algorithms": true,
+  "som_epochs": 20,
+  "som_excluded_methods": [
+    "kde",
+    "kmeans",
+    "kmeans++"
+  ],
+  "measure_speed": true,
+  "measure_memory": true,
+  "measure_quality": true,
+  "measure_evaluation": true,
+  "quality_metrics": [
+    "silhouette_score",
+    "calinski_harabasz_score",
+    "davies_bouldin_score"
+  ],
+  "evaluation_metrics": [
+    "adjusted_rand_index",
+    "normalized_mutual_info",
+    "homogeneity",
+    "completeness",
+    "v_measure"
+  ],
+  "random_state": 42,
+  "n_runs": 1,
+  "timeout_seconds": 60.0,
+  "aggregate_runs": true,
+  "aggregation_methods": [
+    "mean",
+    "std",
+    "min",
+    "max",
+    "median"
+  ],
+  "save_individual_runs": true,
+  "statistical_significance": false,
+  "confidence_level": 0.95,
+  "results_dir": "results",
+  "save_models": false,
+  "save_predictions": true,
+  "save_detailed_results": true,
+  "n_jobs": 1,
+  "log_level": "INFO",
+  "log_to_file": true,
+  "log_style": "detailed",
+  "log_performance": true,
+  "log_progress": true
+}
